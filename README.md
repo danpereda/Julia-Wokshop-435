@@ -5,7 +5,7 @@
 1. Instalaciones:
     - [Julia](https://julialang.org/downloads/) 
     - Editor de texto
-        - - [Opcional] Extensiones editor de texto útiles (VSCode)
+        - [Opcional] Extensiones editor de texto útiles (VSCode)
     - Paquetes de Julia comunmente usados
 2. Aprendiendo lo básico:
     - Arrays, Strings, etc.
@@ -27,7 +27,7 @@
 
 ### Instalando Julia
 
-[Click aquí para descargar Julia](https://julialang.org/downloads/) *Current Stable release : v1.5.0* al momento de realizar este workshop, ha sido confirmado en JuliaCon2020 que Julia v1.6.0 será lanzado a fines de 2020 y será la nueva versión estable y de largo plazo. Comparado con la versión v1.4 se disminuye la latencia en más de un $50\\%$ lo que influye en los tiempos de compilación.
+[Click aquí para descargar Julia](https://julialang.org/downloads/) *Current Stable release : v1.5.0* al momento de realizar este workshop, ha sido confirmado en JuliaCon2020 que Julia v1.6.0 será lanzado a fines de 2020 y será la nueva versión estable y de largo plazo. Comparado con la versión v1.4 se disminuye la latencia en más de un 50% lo que influye en los tiempos de compilación.
 
 Otra opción es descargar [Julia PRO](https://juliacomputing.com/products/juliapro.html), el cual contiene Julia + Juno IDE + Atom + algunos paquetes.
 
