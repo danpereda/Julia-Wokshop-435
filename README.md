@@ -4,6 +4,7 @@
 
 1. Instalaciones:
     - [Julia](https://julialang.org/downloads/) 
+    - [Git](https://git-scm.com/downloads)
     - Editor de texto
         - [Opcional] Extensiones editor de texto útiles (VSCode)
     - Paquetes de Julia comunmente usados
@@ -31,21 +32,37 @@
 
 Otra opción es descargar [Julia PRO](https://juliacomputing.com/products/juliapro.html), el cual contiene Julia + Juno IDE + Atom + algunos paquetes.
 
+### Git
+
+Se recomienda instalar también [Git](https://git-scm.com/downloads) junto con [Github Desktop](https://desktop.github.com/) (recomendado para nuevos usuarios) y opcionalmente para aprender un poco más de Github y trabajar en proyectos con más personas [GitKraken](https://www.gitkraken.com/).
+
+*Nota: Para seguir el problema de la cantidad mínima de pasaportes es necesario instalar Git*
+
 ### Editors and IDEs
 
 Si no estás acostumbrado a usar un editor en particular, recomiendo instalar VS Code. [Instrucciones](https://www.julia-vscode.org/). 
 
 Editores de texto más populares (Juno, VS Code, Jupyter, JetBrains, Vim, Emacs, SublimeText, NotePad++) son compatibles con Julia  [ver sección Editors and IDEs](https://julialang.org/) para tener una guía de cómo instalar cada uno.
 
-Para utilizar Jupyter Notebooks se requiere instalar el paquete `IJulia.jl`. Para esto abrir Julia y escribir lo siguiente:
+Para utilizar Jupyter Notebooks se requiere instalar el paquete `IJulia.jl`. Para esto, abrir Julia y correr el siguiente código en Julia REPL (Julia's interactive command prompt).
 
 ```julia
-using Pkg
+import Pkg
 Pkg.add("IJulia") # Solo la primera vez
 using IJulia # Estas últimas 2 líneas son las que se utilizarán normalmente para trabajar con Jupyter Notebooks en Julia
 notebook()
 ```
 
+En caso de no tener instalado Jupyter, se debe correr primero el siguiente código en Julia REPL:
+
+```julia
+import Pkg
+ENV["JUPYTER"]=""
+Pkg.add("Conda")
+Pkg.add("IJulia")
+import Conda
+Conda.add("jupyter")
+```
 
 #### Extensiones útiles en VS Code
 
