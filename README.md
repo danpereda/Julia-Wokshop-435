@@ -39,7 +39,7 @@ Editores de texto más populares (Juno, VS Code, Jupyter, JetBrains, Vim, Emacs,
 
 Para utilizar Jupyter Notebooks se requiere instalar el paquete `IJulia.jl`. Para esto abrir Julia y escribir lo siguiente:
 
-````julia
+```julia
 using Pkg
 Pkg.add("IJulia") # Solo la primera vez
 using IJulia # Estas últimas 2 líneas son las que se utilizarán normalmente para trabajar con Jupyter Notebooks en Julia
@@ -105,7 +105,7 @@ Pkg.add("XLSX")
 
 ## Aprendiendo lo básico
 
-Descargar el siguiente Jupyter Notebook.
+Descargar el siguiente [Jupyter Notebook](https://github.com/danpereda/Julia-Wokshop-435/blob/master/Jupyter%20Notebooks/AprendiendoJulia.ipynb).
 
 ## Optimización
 
