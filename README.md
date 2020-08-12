@@ -37,6 +37,16 @@ Si no estás acostumbrado a usar un editor en particular, recomiendo instalar VS
 
 Editores de texto más populares (Juno, VS Code, Jupyter, JetBrains, Vim, Emacs, SublimeText, NotePad++) son compatibles con Julia  [ver sección Editors and IDEs](https://julialang.org/) para tener una guía de cómo instalar cada uno.
 
+Para utilizar Jupyter Notebooks se requiere instalar el paquete `IJulia.jl`. Para esto abrir Julia y escribir lo siguiente:
+
+````julia
+using Pkg
+Pkg.add("IJulia") # Solo la primera vez
+using IJulia # Estas últimas 2 líneas son las que se utilizarán normalmente para trabajar con Jupyter Notebooks en Julia
+notebook()
+```
+
+
 #### Extensiones útiles en VS Code
 
 Las siguientes extensiones mejoran la calidad de vida al programar en VS Code, son en su mayoría mejoras visuales, agregando colores a cada par de paréntesis y destacando que es lo que está escrito dentro de ellos, muestra con distintos colores las identaciones, se pueden cambiar nombres de todas las ocurrencias de una palabra de manera automática, etc.
