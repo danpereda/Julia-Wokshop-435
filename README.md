@@ -126,7 +126,7 @@ Descargar el siguiente [Jupyter Notebook](https://github.com/danpereda/Julia-Wok
 
 ## Optimización
 
-Descargar el siguiente Jupyter Notebook
+Descargar el siguiente [Jupyter Notebook](https://github.com/danpereda/Julia-Wokshop-435/blob/master/Jupyter%20Notebooks/IntroOptimizacionJuMP.ipynb)
 
 ## Machine Learning Científico
 
